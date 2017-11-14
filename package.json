@@ -1,0 +1,40 @@
+{
+  "name": "phaser-template",
+  "version": "1.0.0",
+  "description": "A template for building phaser games",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp develop",
+    "deploy": "gulp deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.51",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.5.0",
+    "critical": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-env": "^0.4.0",
+    "gulp-image": "^4.1.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "gulp-uglify": "^3.0.0",
+    "run-sequence": "^2.2.0",
+    "typescript": "^2.6.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.9.2"
+  }
+}
